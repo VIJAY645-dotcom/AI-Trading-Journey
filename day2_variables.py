@@ -12,3 +12,17 @@ OUTPUT:
 Name: Vijay
 Age: 20
 City: Mumbai
+
+Step 3: User Input
+Ab ye code likho:
+name = input("Enter your name: ")
+city = input("Enter your city: ")
+
+print("Hello", name)
+print("You live in", city)
+Example:
+Enter your name: Vijay
+Enter your city: Mumbai
+
+Hello Vijay
+You live in Mumbai
