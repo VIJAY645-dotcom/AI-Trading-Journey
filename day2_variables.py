@@ -26,3 +26,20 @@ Enter your city: Mumbai
 
 Hello Vijay
 You live in Mumbai
+
+
+Step 4: Trading Practice
+Ye program likho:
+name = input("Trader Name: ")
+pair = input("Trading Pair: ")
+
+print("Welcome", name)
+print("Today's Pair:", pair)
+Example:
+Trader Name: Vijay
+Trading Pair: XAUUSD
+
+Welcome Vijay
+Today's Pair: XAUUSD
+
+
