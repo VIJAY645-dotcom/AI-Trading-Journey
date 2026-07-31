@@ -1,0 +1,68 @@
+Python Day 5 – int() aur float()
+
+Aaj hum seekhenge ki user ke input ko number me kaise convert karte hain.
+
+Problem
+
+Ye code dekho:
+buy_price = input("Buy Price: ")
+print(buy_price)
+
+Agar tum 100 likhoge, Python ise text (string) samjhega, number nahi.
+
+1. int() – Integer (Poore Number)
+age = int(input("Enter Age: "))
+print(age)
+
+Agar user likhe:
+25
+
+output:
+25
+
+Ab age ek number hai.
+
+2. float() – Decimal Number
+
+Stock market me prices decimal me bhi ho sakte hain.
+
+price = float(input("Enter Price: "))
+print(price)
+
+Agar user likhe:
+250.75
+
+output:
+250.75
+
+3. Trading Example – Profit
+buy_price = float(input("Buy Price: "))
+sell_price = float(input("Sell Price: "))
+
+profit = sell_price - buy_price
+
+print("Profit Per Share =", profit)
+
+example:
+Buy Price: 500
+Sell Price: 540
+
+output:
+Profit Per Share = 40.0
+
+4. Total Profit
+buy_price = float(input("Buy Price: "))
+sell_price = float(input("Sell Price: "))
+quantity = int(input("Quantity: "))
+
+profit = (sell_price - buy_price) * quantity
+
+print("Total Profit =", profit)
+
+example:
+Buy Price: 500
+Sell Price: 540
+Quantity: 50
+
+output:
+Total Profit = 2000.0
