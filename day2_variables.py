@@ -1,45 +1,58 @@
-# Day 2 - Variables
+Variables kya hote hain?
+Variable ek container (dabba) ki tarah hota hai jisme hum data store karte hain.
 
+Jaise:
+
+Tumhara naam
+Tumhari age
+Account balance
+Stock ka naam
+Entry price
+
+Ye sab variables me store kiya ja sakta hai.
+
+Example 1
 name = "Vijay"
-age = 20
-city = "Mumbai"
 
-print("Name:", name)
-print("Age:", age)
-print("City:", city)
+print(name)
 
-OUTPUT:
-Name: Vijay
-Age: 20
-City: Mumbai
+output:
+Vijay
 
-Step 3: User Input
-Ab ye code likho:
-name = input("Enter your name: ")
-city = input("Enter your city: ")
+Yahan name variable hai aur usme "Vijay" store hua hai.
 
-print("Hello", name)
-print("You live in", city)
-Example:
-Enter your name: Vijay
-Enter your city: Mumbai
+Example 2
+stock = "RELIANCE"
+price = 1500
 
-Hello Vijay
-You live in Mumbai
+print(stock)
+print(price)
+
+output:
+RELIANCE
+1500
+
+Example 3 (Trading Example)
+stock = "TCS"
+buy_price = 3500
+target = 3700
+stop_loss = 3450
+
+print(stock)
+print(buy_price)
+print(target)
+print(stop_loss)
+
+output:
+TCS
+3500
+3700
+3450
+
+[Program finished]
+
+Isi tarah future me tumhara AI Trading Agent har trade ki information variables me store karega.
 
 
-Step 4: Trading Practice
-Ye program likho:
-name = input("Trader Name: ")
-pair = input("Trading Pair: ")
-
-print("Welcome", name)
-print("Today's Pair:", pair)
-Example:
-Trader Name: Vijay
-Trading Pair: XAUUSD
-
-Welcome Vijay
-Today's Pair: XAUUSD
 
 
