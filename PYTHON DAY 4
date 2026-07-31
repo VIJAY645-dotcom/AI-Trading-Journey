@@ -56,4 +56,16 @@ output:
 vijay
 nvda
 
+Ek chhoti si baat
+Abhi input() se jo value aati hai, wo text (string) hoti hai. Agar tum usse calculation me use karoge, to error aa sakta hai.
+
+Isliye Day 5 me hum seekhenge:
+
+int()
+float()
+User ke input ko number me convert karna
+Profit aur Loss calculate karna
+
+Ye tumhare AI Trading Agent ka bahut important part hoga, kyunki stock prices aur quantity numbers hote hain.
+
 
