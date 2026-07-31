@@ -1,8 +1,42 @@
-print("Hello Vijay!")
-print("Welcome to Python")
-print("My goal is to build an AI Trading Agent.")
+Python Day 1 – Print Statement
+Python kya hai?
+Python ek programming language hai jisse hum:
+AI bana sakte hain.
+Trading Bot bana sakte hain.
+Automation kar sakte hain.
+Data Analysis kar sakte hain.
+Apps aur websites bhi bana sakte hain.
+Tumhara goal hai AI Trading Agent, aur Python uske liye sabse important language hai.
+Lesson 1: print()
+print() ka matlab hota hai screen par kuch dikhana.
 
-output:
-Hello Vijay!
-Welcome to Python
-My goal is to build an AI Trading Agent
+
+EXAMPLE:-1
+print("Hello Vijay")
+
+OUTPUT:
+Hello Vijay
+
+EXAMPLE:-2
+print("I am learning Python")
+
+OUTPUT:
+I am learning Python
+
+EXAMPLE:-3
+print("My Name is Vijay")
+print("I am a Stock Trader")
+print("I want to Build AI Agent")
+print("I Love Trading")
+print("Python Day 1")
+
+OUTPUT:
+My Name is Vijay
+I am a Stock Trader
+I want to Build AI Agent
+I Love Trading
+Python Day 1
+
+[Program finished]
+
+
