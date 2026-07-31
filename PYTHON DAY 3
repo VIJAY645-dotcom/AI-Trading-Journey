@@ -1,0 +1,69 @@
+Numbers aur Basic Calculations
+Aaj hum seekhenge:
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+
+Ye sab future me Profit, Loss, Risk aur Position Size calculate karne ke kaam aayega.
+
+Example 1: Addition
+a = 10
+b = 20
+
+total = a + b
+
+print(total)
+
+output:
+30
+
+Example 2: Subtraction
+buy_price = 2500
+stop_loss = 2475
+
+risk = buy_price - stop_loss
+
+print(risk)
+
+output:
+25
+
+Matlab tumhara risk ₹25 per share hai.
+
+Example 3: Multiplication
+risk_per_share = 25
+quantity = 100
+
+total_risk = risk_per_share * quantity
+
+print(total_risk)
+
+output:
+2500
+
+Example 4: Division
+profit = 6000
+trades = 12
+
+average_profit = profit / trades
+
+print(average_profit)
+
+output:
+500.0
+
+ek trading example 
+capital = 50000
+risk_percent = 2
+
+risk_amount = capital * risk_percent / 100
+
+print(risk_amount)
+
+output:
+1000.0
+
+[Program finished]
+
