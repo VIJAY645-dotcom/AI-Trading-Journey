@@ -1,0 +1,59 @@
+Strings aur User Input (input())
+Aaj hum seekhenge:
+
+String kya hoti hai?
+User se input kaise lete hain?
+
+1. String kya hoti hai?
+Jo bhi text double quotes (" ") ya single quotes (' ') me likha jata hai, use String kehte hain.
+
+Example:
+name = "Vijay"
+
+print(name)
+
+output:
+Vijay
+
+2. User Input (input())
+Ab tak tum khud value likhte the.
+Ab user keyboard se value enter karega.
+
+Example:
+name = input("Enter Your Name: ")
+
+print("Hello", name)
+
+Agar user likhe:
+Vijay
+
+output:
+Hello Vijay
+
+Trading Example
+stock = input("Enter Stock Name: ")
+
+print("Selected Stock:", stock)
+
+Agar user likhe:
+TCS
+
+output:
+Selected Stock: TCS
+
+4. Multiple Inputs
+name = input("Enter Name: ")
+stock = input("Enter Stock: ")
+
+print(name)
+print(stock)
+
+Agar user likhe:
+vijay
+nvda
+
+output:
+vijay
+nvda
+
+
