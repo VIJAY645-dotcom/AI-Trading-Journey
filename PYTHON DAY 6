@@ -1,0 +1,76 @@
+Aaj hum Comparison Operators aur Logical Operators seekhenge. Ye tumhare AI Trading Agent ka brain banenge, kyunki AI ko decision lena hota hai.
+
+1. Comparison Operators
+Ye do values ko compare karte hain.
+
+a = 10
+b = 20
+
+print(a > b)
+
+output:
+False
+
+Kyunki 10, 20 se bada nahi hai.
+
+Sabhi Comparison Operators
+print(10 > 5)    # True
+print(10 < 5)    # False
+print(10 == 10)  # True
+print(10 != 5)   # True
+print(10 >= 10)  # True
+print(10 <= 5)   # False
+
+2. Logical Operator and
+Agar dono conditions True hongi tabhi result True hoga.
+
+trend_1d = True
+trend_4h = True
+
+print(trend_1d and trend_4h)
+
+output:
+True
+
+3. Logical Operator or
+Agar ek bhi condition True hai to result True hoga.
+
+news = False
+breakout = True
+
+print(news or breakout)
+
+output:
+True
+
+4. Trading Example
+Ye example tumhari strategy se related hai.
+
+trend = True
+liquidity_sweep = True
+choch = True
+
+buy_signal = trend and liquidity_sweep and choch
+
+print(buy_signal)
+
+output:
+True
+
+Matlab AI bolega: "Buy Signal Confirmed"
+
+5. Ek aur Example
+
+trend = True
+liquidity_sweep = False
+choch = True
+
+buy_signal = trend and liquidity_sweep and choch
+
+print(buy_signal)
+
+output:
+False
+
+Matlab AI trade nahi lega.
+
