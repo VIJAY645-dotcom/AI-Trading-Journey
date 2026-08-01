@@ -1,2 +1,107 @@
 if, elif, else
+
 Aaj hum Python ka sabse important concept seekhenge. Isi se AI decision leta hai.
+
+1. if
+
+Agar condition True hai, to code chalega.
+buy_signal = True
+
+if buy_signal:
+    print("BUY")
+
+output:
+BUY
+
+2. Agar condition False ho
+
+buy_signal = False
+
+if buy_signal:
+    print("BUY")
+
+Output:
+Kuch bhi print nahi hoga.
+
+3. if + else
+buy_signal = False
+
+if buy_signal:
+    print("BUY")
+else:
+    print("NO TRADE")
+
+output:
+NO TRADE
+
+4. elif
+Agar pehli condition False ho, to Python doosri condition check karta hai.
+
+trend = "Bullish"
+
+if trend == "Bullish":
+    print("BUY")
+
+elif trend == "Bearish":
+    print("SELL")
+
+else:
+    print("WAIT")
+
+output:
+BUY
+
+5. Tumhari Trading Strategy
+Ab tumhari strategy ka simple version banate hain.
+
+trend = True
+liquidity = True
+choch = True
+
+if trend and liquidity and choch:
+    print("BUY SIGNAL")
+
+else:
+    print("WAIT")
+
+Agar teenon conditions True hain:
+
+output:
+BUY SIGNAL
+
+6. Real AI Trading Example
+trend_1d = True
+trend_4h = True
+liquidity_sweep = True
+displacement = True
+choch = True
+fib = True
+
+if trend_1d and trend_4h and liquidity_sweep and displacement and choch and fib:
+    print("BUY TRADE")
+
+else:
+    print("NO TRADE")
+
+Ye AI Trading Agent ka pehla decision rule hai.
+
+output:
+BUY TRADE
+
+[Program finished]
+
+Practice
+Pydroid 3 me ye code likho aur run karo:
+
+capital = 100000
+
+if capital >= 50000:
+    print("Trade Allowed")
+
+else:
+    print("Capital Too Low")
+
+output:
+Trade Allowed
+
+[Program finished]
