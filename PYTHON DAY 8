@@ -1,0 +1,83 @@
+Aaj hum Loops seekhenge. Loop ka matlab hai ek hi kaam ko baar-baar karna, bina code ko baar-baar likhe.
+
+Ye AI Trading Agent ke liye bahut important hai, kyunki AI ko:
+
+Bahut saare stocks check karne honge.
+Bahut saari candles analyze karni hongi.
+Har trade ko monitor karna hoga.
+
+1. for Loop
+Ye code dekho:
+
+for i in range(5):
+    print(i)
+
+output:
+0
+1
+2
+3
+4
+
+range(5) ka matlab hai 5 baar loop chalega.
+
+2. 1 se 5 tak print karna
+
+for i in range(1, 6):
+    print(i)
+
+output:
+1
+2
+3
+4
+5
+
+3. Trading Example
+Maan lo tum 5 stocks check karna chahte ho.
+
+stocks = ["TCS", "RELIANCE", "INFY", "HDFCBANK", "SBIN"]
+
+for stock in stocks:
+    print(stock)
+
+output:
+TCS
+RELIANCE
+INFY
+HDFCBANK
+SBIN
+
+Isi tarah future me AI har stock ko ek-ek karke check karega.
+
+4. Buy Signal Example
+
+stocks = ["TCS", "INFY", "SBIN"]
+
+for stock in stocks:
+    print(stock, "Checking Buy Signal...")
+
+output:
+TCS Checking Buy Signal...
+INFY Checking Buy Signal...
+SBIN Checking Buy Signal...
+
+Practice
+Pydroid 3 me ye code likho:
+
+for i in range(1, 11):
+    print("Learning Python Day", i)
+
+output:
+Learning Python Day 1
+Learning Python Day 2
+Learning Python Day 3
+Learning Python Day 4
+Learning Python Day 5
+Learning Python Day 6
+Learning Python Day 7
+Learning Python Day 8
+Learning Python Day 9
+Learning Python Day 10
+
+[Program finished]
