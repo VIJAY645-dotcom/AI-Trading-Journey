@@ -1,0 +1,94 @@
+Aaj hum Lists seekhenge. Ye AI Trading Agent ke liye bahut important concept hai.
+
+Example
+
+stocks = ["TCS", "RELIANCE", "INFY"]
+
+Yahan stocks list me 3 stock names hain.
+
+1. Puri List Print Karna
+
+stocks = ["TCS", "RELIANCE", "INFY"]
+
+print(stocks)
+
+output:
+['TCS', 'RELIANCE', 'INFY']
+
+2. List ka Ek Item Access Karna
+Python me counting 0 se shuru hoti hai.
+
+stocks = ["TCS", "RELIANCE", "INFY"]
+
+print(stocks[0])
+print(stocks[1])
+print(stocks[2])
+
+output:
+TCS
+RELIANCE
+INFY
+
+3. List me Naya Item Add Karna
+
+stocks = ["TCS", "RELIANCE"]
+
+stocks.append("SBIN")
+
+print(stocks)
+
+output:
+['TCS', 'RELIANCE', 'SBIN']
+
+append() ka matlab hai list ke end me naya item add karna.
+
+4. Loop ke Saath List
+stocks = ["TCS", "RELIANCE", "INFY"]
+
+for stock in stocks:
+    print("Checking:", stock)
+
+output:
+Checking: TCS
+Checking: RELIANCE
+Checking: INFY
+
+Trading Example
+Maan lo AI ko ye stocks analyze karne hain:
+
+watchlist = [
+    "TCS",
+    "RELIANCE",
+    "INFY",
+    "HDFCBANK",
+    "SBIN"
+]
+
+for stock in watchlist:
+    print("Analyzing", stock)
+
+output:
+Analyzing TCS
+Analyzing RELIANCE
+Analyzing INFY
+Analyzing HDFCBANK
+Analyzing SBIN
+
+[Program finished]
+
+Practice
+Ye code Pydroid 3 me likho:
+
+my_watchlist = ["TCS", "ITC", "LT"]
+
+print(my_watchlist)
+
+my_watchlist.append("HCLTECH")
+
+print(my_watchlist)
+
+output:
+['TCS', 'ITC', 'LT']
+['TCS', 'ITC', 'LT', 'HCLTECH']
+
+[Program finished]
