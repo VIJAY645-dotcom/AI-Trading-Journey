@@ -1,0 +1,71 @@
+Aaj hum Functions seekhenge. Professional Python programmers aur AI developers bahut zyada functions ka use karte hain.
+
+Function kya hota hai?
+Function ek chhota program hota hai jo ek specific kaam karta hai. Ek baar likho, jitni baar chaho use karo.
+
+Example 1
+
+def hello():
+    print("Hello Vijay")
+
+hello()
+
+output:
+Hello Vijay
+
+Yahan:
+def = Function banana
+hello = Function ka naam
+hello() = Function ko chalana
+
+Example 2
+
+def welcome():
+    print("Welcome to Python")
+    print("Let's Build AI Trading Agent")
+
+welcome()
+
+output:
+Welcome to Python
+Let's Build AI Trading Agent
+
+Example 3 (Trading)
+def buy_signal():
+    print("BUY SIGNAL FOUND")
+
+buy_signal()
+
+output:
+BUY SIGNAL FOUND
+
+Example 4 (Risk Management)
+def risk():
+    print("Maximum Risk = 2%")
+
+risk()
+
+output:
+Maximum Risk = 2%
+
+[Program finished]
+
+AI Trading Agent Example
+Future me hum is tarah ke functions banayenge:
+
+def check_trend():
+    print("Trend is Bullish")
+
+def check_liquidity():
+    print("Liquidity Sweep Found")
+
+check_trend()
+check_liquidity()
+
+output:
+Trend is Bullish
+Liquidity Sweep Found
+
+Baad me in functions me sirf print() nahi hoga, balki asli market data analyze hoga.
+
+ 
