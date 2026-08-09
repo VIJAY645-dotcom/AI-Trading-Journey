@@ -1,0 +1,94 @@
+Aaj ka topic hai return. Ye bahut important hai, kyunki ab tumhara function sirf result print nahi karega, balki result ko wapas dega, jise hum baad me use kar sakte hain.
+
+1. print() aur return me difference
+
+print()
+def add():
+    print(10 + 20)
+
+add()
+
+output:
+30
+
+[Program finished]
+
+Ye sirf screen par 30 dikhata hai.
+
+return
+
+def add():
+    return 10 + 20
+
+result = add()
+
+print(result)
+
+output:
+30
+
+[Program finished]
+
+Yahan function ne 30 wapas diya aur humne use result me store kiya.
+
+2. Trading Example: Profit Calculate Karna
+def calculate_profit(buy_price, sell_price):
+    profit = sell_price - buy_price
+    return profit
+
+result = calculate_profit(500, 540)
+
+print("Profit Per Share:", result)
+
+output:
+Profit Per Share: 40
+
+3. Total Profit
+def calculate_total_profit(buy_price, sell_price, quantity):
+    profit = (sell_price - buy_price) * quantity
+    return profit
+
+total_profit = calculate_total_profit(500, 540, 50)
+
+print("Total Profit:", total_profit)
+
+output:
+Total Profit: 2000
+
+4. Risk Calculator
+Ab tumhare trading system ka example:
+
+def calculate_risk(capital, risk_percent):
+    risk_amount = capital * risk_percent / 100
+    return risk_amount
+
+risk = calculate_risk(100000, 1)
+
+print("Maximum Risk:", risk)
+
+output:
+Maximum Risk: 1000.0
+
+5. AI Trading Agent Example
+
+def check_buy_signal(trend, liquidity, choch):
+
+    if trend and liquidity and choch:
+        return True
+    else:
+        return False
+
+
+signal = check_buy_signal(True, True, True)
+
+if signal:
+    print("BUY")
+else:
+    print("NO TRADE")
+
+output:
+BUY
+
+[Program finished]
+Yahan function True ya False return karta hai. Phir AI us result ke basis par decision leta hai.
+
