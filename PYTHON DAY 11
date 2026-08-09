@@ -1,0 +1,67 @@
+Aaj hum Function Parameters seekhenge. Ye AI Trading Agent ke liye bahut important hai, kyunki ek hi function ko alag-alag stocks ke saath use kar sakte ho.
+
+Function Parameter kya hota hai?
+Parameter ka matlab hai function ko data dena.
+Example 1
+def hello(name):
+    print("Hello", name)
+
+hello("Vijay")
+
+output:
+Hello Vijay
+
+Yahan name ek parameter hai.
+
+Example 2
+
+def stock(stock_name):
+    print("Analyzing", stock_name)
+
+stock("TCS")
+stock("RELIANCE")
+stock("INFY")
+
+output:
+Analyzing TCS
+Analyzing RELIANCE
+Analyzing INFY
+
+Ek hi function ko hum alag-alag stocks ke liye use kar rahe hain.
+
+Example 3 (Buy Price)
+
+def buy(price):
+    print("Buy Price =", price)
+
+buy(2500)
+buy(1800)
+
+output:
+Buy Price = 2500
+Buy Price = 1800
+
+AI Trading Agent Example
+
+def check_stock(stock_name):
+    print("Checking Trend for", stock_name)
+    print("Checking Liquidity Sweep")
+    print("Checking CHOCH")
+    print("Analysis Complete")
+
+check_stock("TCS")
+check_stock("RELIANCE")
+
+output:
+Checking Trend for TCS
+Checking Liquidity Sweep
+Checking CHOCH
+Analysis Complete
+Checking Trend for RELIANCE
+Checking Liquidity Sweep
+Checking CHOCH
+Analysis Complete
+
+Future me isi function ke andar asli market data analyze hoga.
+
+
