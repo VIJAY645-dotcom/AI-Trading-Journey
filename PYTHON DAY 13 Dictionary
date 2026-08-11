@@ -1,0 +1,97 @@
+Aaj hum Dictionary seekhenge. Ye tumhare Trading Journal aur AI Trading Agent ke liye bahut important hai.
+
+Dictionary kya hoti hai?
+Dictionary data ko key : value ke form me store karti hai.
+
+Example:
+
+trade = {
+    "stock": "TCS",
+    "entry": 3500,
+    "stop_loss": 3450,
+    "target": 3650
+}
+
+Yahan:
+. "stock" = key
+. "TCS" = value
+. "entry" = key
+. 3500 = value
+
+1. Dictionary se Data Read Karna
+
+trade = {
+    "stock": "TCS",
+    "entry": 3500,
+    "stop_loss": 3450,
+    "target": 3650
+}
+
+print(trade["stock"])
+print(trade["entry"])
+
+output:
+TCS
+3500
+
+2. Complete Trade Journal
+
+Tumhare setup ke hisaab se:
+
+trade = {
+    "stock": "RELIANCE",
+    "timeframe": "15m",
+    "trend_1D": "Bullish",
+    "trend_4H": "Bullish",
+    "liquidity_sweep": True,
+    "displacement": True,
+    "choch": True,
+    "entry": 2500,
+    "stop_loss": 2450,
+    "target": 2650,
+    "result": "WIN"
+}
+
+Ab ye ek complete trade ka digital record hai.
+
+3. Specific Data Print Karna
+
+print("Stock:", trade["stock"])
+print("Entry:", trade["entry"])
+print("Stop Loss:", trade["stop_loss"])
+print("Result:", trade["result"])
+
+4. Dictionary me Naya Data Add Karna
+
+trade["profit"] = 500
+
+print(trade)
+Ab trade me profit bhi add ho gaya.
+
+5. Data Update Karna
+trade["result"] = "LOSS"
+
+Dictionary me existing value update kar sakte ho.
+
+AI Trading Agent Example
+Socho AI tumhari strategy ko analyze kar raha hai:
+
+trade = {
+    "trend": True,
+    "liquidity_sweep": True,
+    "displacement": True,
+    "choch": True
+}
+
+if (
+    trade["trend"]
+    and trade["liquidity_sweep"]
+    and trade["displacement"]
+    and trade["choch"]
+):
+    print("BUY SIGNAL")
+else:
+    print("NO TRADE")
+
+AI dictionary ke andar stored data ko check karke decision le raha hai.
+
